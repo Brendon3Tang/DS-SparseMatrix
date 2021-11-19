@@ -14,15 +14,15 @@ typedef struct
 	int item;
 } Triple;
 
-class TripleMatrix
+class Matrix
 {
 private:
 	Triple data[MAX];
 	int rNum, cNum, itemNum;
 public:
-	TripleMatrix(int rParaNum,int cParaNum);
+	Matrix(int rParaNum,int cParaNum);
 
-	~TripleMatrix();
+	~Matrix();
 
 	Status setItem(int row, int col, int item);
 

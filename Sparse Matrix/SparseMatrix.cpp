@@ -16,7 +16,7 @@ Matrix::Matrix(int rParaNum, int cParaNum)
 
 Matrix::~Matrix()
 {
-
+	//没有在堆区创建数据，不需要析构函数。
 }
 
 /*插入item到triple表中的标准：首先以item在matrix中所存在的row来从小到大排序，row相同时以column排序。
